@@ -81,21 +81,47 @@ On mobile and tablet, a polished splash screen with the WATCHERR logo greets you
 
 ## 📸 Screenshots
 
-| Home | Title Page | Series Page |
-|---|---|---|
-| ![](images/hero-home.png) | ![](images/title-page.png) | ![](images/series-page.png) |
+### General
 
-| Login | Admin Settings | Admin Users |
-|---|---|---|
-| ![](images/login.png) | ![](images/admin-system.png) | ![](images/admin-users.png) |
+| Home | Login |
+|---|---|
+| ![](images/hero-home.png) | ![](images/login.png) |
 
-| Admin Addons |
-|---|
-| ![](images/admin-addons.png) |
+### Standard Mode — Request & Download
 
-| Mobile Home | Mobile Title | Mobile Series |
+Browse your library, request movies and series with a quality profile picker, and track downloads.
+
+| Movie Page | Quality Profile Picker | Series Page |
 |---|---|---|
-| <img src="images/mobile-home.png" width="280" /> | <img src="images/mobile-title.png" width="280" /> | <img src="images/mobile-series.png" width="280" /> |
+| ![](images/standard-movie.png) | ![](images/standard-request.png) | ![](images/standard-series.png) |
+
+### Online Mode — Stream Instantly
+
+Stream any movie or episode directly via Stremio addons. Pick a stream, open in VLC, and watch.
+
+| Movie Page | Stream List | Episode Picker |
+|---|---|---|
+| ![](images/online-movie.png) | ![](images/online-streams.png) | ![](images/online-episodes.png) |
+
+### Admin Panel
+
+| Settings | Users | Addons |
+|---|---|---|
+| ![](images/admin-system.png) | ![](images/admin-users.png) | ![](images/admin-addons.png) |
+
+### Mobile
+
+<p align="center">
+  <img src="images/mobile-standard-movie.png" alt="Mobile Standard Mode" width="260" />
+  &nbsp;&nbsp;
+  <img src="images/mobile-online-movie.png" alt="Mobile Online Mode" width="260" />
+  &nbsp;&nbsp;
+  <img src="images/mobile-online-streams.png" alt="Mobile Stream List" width="260" />
+</p>
+
+| Mobile Home | Mobile Series |
+|---|---|
+| <img src="images/mobile-home.png" width="280" /> | <img src="images/mobile-series.png" width="280" /> |
 
 ---
 
