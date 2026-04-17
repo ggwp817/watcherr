@@ -89,6 +89,10 @@ On mobile and tablet, a polished splash screen with the WATCHERR logo greets you
 |---|---|---|
 | ![](images/login.png) | ![](images/admin-system.png) | ![](images/admin-users.png) |
 
+| Admin Addons |
+|---|
+| ![](images/admin-addons.png) |
+
 | Mobile Home | Mobile Title | Mobile Series |
 |---|---|---|
 | <img src="images/mobile-home.png" width="280" /> | <img src="images/mobile-title.png" width="280" /> | <img src="images/mobile-series.png" width="280" /> |
