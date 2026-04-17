@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.pt-safe {
+		padding-top: env(safe-area-inset-top, 0px);
+	}
+	.top-safe {
+		top: env(safe-area-inset-top, 0px);
+	}
+	.pb-safe {
+		padding-bottom: env(safe-area-inset-bottom, 0px);
+	}
+	.bottom-safe {
+		bottom: env(safe-area-inset-bottom, 0px);
+	}
+	.pl-safe {
+		padding-left: env(safe-area-inset-left, 0px);
+	}
+	.pr-safe {
+		padding-right: env(safe-area-inset-right, 0px);
+	}
+	.px-safe {
+		padding-left: env(safe-area-inset-left, 0px);
+		padding-right: env(safe-area-inset-right, 0px);
+	}
+	.mt-safe {
+		margin-top: env(safe-area-inset-top, 0px);
+	}
+	.mb-safe {
+		margin-bottom: env(safe-area-inset-bottom, 0px);
+	}
+	.inset-safe {
+		top: env(safe-area-inset-top, 0px);
+		bottom: env(safe-area-inset-bottom, 0px);
+		left: env(safe-area-inset-left, 0px);
+		right: env(safe-area-inset-right, 0px);
+	}
+}
+
+html {
+	min-height: 100%;
+	/* Enable safe area insets globally on iOS */
+	min-height: -webkit-fill-available;
+}
+
+@supports (padding: env(safe-area-inset-left)) {
+	body {
+		padding-left: env(safe-area-inset-left, 0px);
+		padding-right: env(safe-area-inset-right, 0px);
+	}
+}
+
+a {
+	@apply hover:text-amber-200;
+}
+
+.placeholder {
+	@apply bg-zinc-700 bg-opacity-40 animate-pulse;
+}
+
+.placeholder-image {
+	@apply bg-zinc-700 bg-opacity-75;
+}
+
+.placeholder-text {
+	@apply bg-zinc-700 bg-opacity-40 animate-pulse text-transparent rounded-lg select-none;
+}
+
+.selectable {
+	@apply focus-visible:outline outline-2 outline-[#f0cd6dc2] outline-offset-2;
+}
+
+.peer-selectable {
+	@apply peer-focus-visible:outline outline-2 outline-[#f0cd6dc2] outline-offset-2;
+}
+
+.selectable-explicit {
+	@apply focus-within:outline outline-2 outline-[#f0cd6dc2] outline-offset-2;
+}

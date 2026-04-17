@@ -1,0 +1,19 @@
+name: watcherr
+
+services:
+  watcherr:
+    container_name: watcherr
+    image: watcherr:latest
+    build:
+      context: .
+      target: production
+    restart: unless-stopped
+    ports:
+      - "9494:9494"
+    volumes:
+      - ./config:/config
+    environment:
+      - TZ=${TZ:-UTC}
+      - JWT_SECRET=${JWT_SECRET:-changeme-to-a-long-random-string}
+      - DEFAULT_ADMIN_USER=${DEFAULT_ADMIN_USER:-admin}
+      - DEFAULT_ADMIN_PASS=${DEFAULT_ADMIN_PASS:-changeme123}

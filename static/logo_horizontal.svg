@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 60" fill="none">
+	<defs>
+		<linearGradient id="glass" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#fbbf24" stop-opacity="0.06"/>
+			<stop offset="100%" stop-color="#fbbf24" stop-opacity="0.02"/>
+		</linearGradient>
+		<linearGradient id="accent" x1="0" y1="0" x2="35" y2="0" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#fbbf24" stop-opacity="0.4"/>
+			<stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<rect x="2" y="6" width="48" height="48" rx="13" fill="url(#glass)" stroke="#fbbf24" stroke-opacity="0.15" stroke-width="1"/>
+	<text x="26" y="40" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="23" font-weight="600" fill="#fbbf24" fill-opacity="0.85">W</text>
+	<text x="68" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="400" fill="#ffffff" fill-opacity="0.8" letter-spacing="8">WATCHERR</text>
+	<rect x="68" y="45" width="35" height="1.5" rx="0.75" fill="url(#accent)"/>
+</svg>
