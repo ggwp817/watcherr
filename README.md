@@ -109,19 +109,23 @@ Stream any movie or episode directly via Stremio addons. Pick a stream, open in 
 |---|---|---|
 | ![](images/admin-system.png) | ![](images/admin-users.png) | ![](images/admin-addons.png) |
 
-### Mobile
+### Mobile — Standard Mode
 
 <p align="center">
-  <img src="images/mobile-standard-movie.png" alt="Mobile Standard Mode" width="260" />
+  <img src="images/mobile-home.png" alt="Mobile Home" width="260" />
   &nbsp;&nbsp;
-  <img src="images/mobile-online-movie.png" alt="Mobile Online Mode" width="260" />
+  <img src="images/mobile-standard-movie.png" alt="Mobile Request" width="260" />
+  &nbsp;&nbsp;
+  <img src="images/mobile-series.png" alt="Mobile Series" width="260" />
+</p>
+
+### Mobile — Online Mode
+
+<p align="center">
+  <img src="images/mobile-online-movie.png" alt="Mobile Stream" width="260" />
   &nbsp;&nbsp;
   <img src="images/mobile-online-streams.png" alt="Mobile Stream List" width="260" />
 </p>
-
-| Mobile Home | Mobile Series |
-|---|---|
-| <img src="images/mobile-home.png" width="280" /> | <img src="images/mobile-series.png" width="280" /> |
 
 ---
 
